@@ -1,0 +1,15 @@
+{
+  "name": "rukayyat-ibrahim-invitation",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "16.2.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "xlsx": "^0.18.5"
+  }
+}
