@@ -88,13 +88,13 @@ export const gallery = [
 export const gifts = [
   {
     bank: 'CaixaBank',
-    holder: 'Rukayyat Morales',
+    holder: 'Rukayyat Kehinde',
     iban: 'ES00 0000 0000 0000 0000 0000',
     swift: 'XXXXXXXXXX',
   },
   {
     bank: 'Banco Santander',
-    holder: 'Ibrahim Fernández',
+    holder: 'Ibrahim Olaide',
     iban: 'ES00 0000 0000 0000 0000 0000',
     swift: 'XXXXXXXXXX',
   },
