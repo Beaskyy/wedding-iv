@@ -25481,7 +25481,7 @@ function KF() {
     [n, r] = g.useState(!1),
     s = g.useRef(null);
   g.useEffect(() => {
-    (dt || ((dt = new Audio(HF)), (dt.loop = !0), (dt.volume = 0.05)),
+    (dt || ((dt = new Audio(HF)), (dt.loop = !0), (dt.volume = 0.02)),
       (s.current = dt));
     const a = () => r(!0),
       l = () => r(!1);
