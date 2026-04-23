@@ -1,4 +1,4 @@
-import Script from 'next/script'
+import Script from "next/script";
 
 export default function Page() {
   return (
@@ -6,5 +6,5 @@ export default function Page() {
       <div id="root" />
       <Script src="/assets/index-CvER8GyV.js" strategy="afterInteractive" />
     </>
-  )
+  );
 }

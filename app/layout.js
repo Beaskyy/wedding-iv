@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: 'Wedding Rukayyat & Ibrahim',
   description: 'This invitation is exclusively for you',

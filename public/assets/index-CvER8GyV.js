@@ -25729,7 +25729,7 @@ function t4() {
     })
   );
 }
-const n4 = "/assets/venue-mosque-outside.jpg";
+const n4 = "/assets/mosque-animate.png";
 function r4() {
   const { t: e } = At();
   return h.jsx("section", {
@@ -25779,23 +25779,6 @@ function r4() {
             h.jsxs("div", {
               className: "space-y-5 mb-8",
               children: [
-                h.jsxs("div", {
-                  className:
-                    "flex items-center justify-center gap-3 text-sage-dark",
-                  children: [
-                    h.jsx("span", {
-                      className:
-                        "font-body text-base tracking-wide italic opacity-70",
-                      children: e("events.date"),
-                    }),
-                    h.jsx("span", { className: "text-gold/40", children: "·" }),
-                    h.jsx("span", {
-                      className: "font-display text-2xl",
-                      children: "14:00",
-                    }),
-                  ],
-                }),
-                h.jsx("div", { className: "w-12 h-px bg-gold/30 mx-auto" }),
                 h.jsxs("div", {
                   className: "flex flex-col items-center gap-1 text-sage-dark",
                   children: [
@@ -25959,7 +25942,7 @@ function s4() {
     }),
   });
 }
-const X_ = "/assets/venue-hedsor-front-COdUzTcT.png";
+const X_ = "/assets/venue-mosque-outside.jpeg";
 function i4() {
   const { t: e } = At();
   return h.jsxs("section", {
@@ -36862,8 +36845,8 @@ function _3({ name1: e, name2: t, date: n }) {
   });
 }
 const C3 = "/assets/intro-video-new-XmwQeafK.mp4",
-  Mw = "/assets/intro-poster-new-BU7qGwfU.jpg",
-  bismillahSealAsset = "/assets/bismillah-seal.jpeg",
+  Mw = "/assets/intro-poster.png",
+  bismillahSealAsset = "/assets/bismillah-seal.png",
   k3 = ({ onEnter: e, onStartMusic: t }) => {
     const [n, r] = g.useState("idle"),
       a = () => {
@@ -36886,16 +36869,6 @@ const C3 = "/assets/intro-video-new-XmwQeafK.mp4",
           alt: "",
           className: "absolute inset-0 w-full h-full object-cover",
           draggable: !1,
-        }),
-        h.jsx("div", {
-          className: "absolute inset-0 flex items-center justify-center px-8",
-          children: h.jsx("img", {
-            src: bismillahSealAsset,
-            alt: "",
-            className:
-              "w-[16rem] max-w-[78vw] md:w-[22rem] rounded-full shadow-[0_20px_60px_rgba(160,99,120,0.18)]",
-            draggable: !1,
-          }),
         }),
       ],
     });
