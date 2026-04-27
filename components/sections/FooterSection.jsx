@@ -7,5 +7,5 @@ export default function FooterSection({ couple }) {
       </p>
       <span>{couple.dateLabel}</span>
     </footer>
-  )
+  );
 }

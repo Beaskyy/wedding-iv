@@ -1,4 +1,4 @@
-import SectionHeading from '../ui/SectionHeading'
+import SectionHeading from "../ui/SectionHeading";
 
 export default function DressSection({ dressCode, venue }) {
   return (
@@ -21,5 +21,5 @@ export default function DressSection({ dressCode, venue }) {
         </div>
       </div>
     </section>
-  )
+  );
 }

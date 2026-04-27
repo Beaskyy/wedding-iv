@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import React from 'react'
+import React from "react";
 
 export default function OpeningOverlay({ couple, onOpen }) {
   return (
@@ -25,5 +25,5 @@ export default function OpeningOverlay({ couple, onOpen }) {
         </div>
       </div>
     </div>
-  )
+  );
 }

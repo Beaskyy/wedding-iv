@@ -18746,7 +18746,7 @@ function aD(e, t) {
 }
 const lD = {
     en: {
-      "hero.subtitle": "We're getting married",
+      "hero.subtitle": "You are invited to the Nikkah of",
       "hero.date": "15 August 2026",
       "hero.rsvp": "RSVP",
       "countdown.title": "Countdown",
@@ -18772,9 +18772,9 @@ const lD = {
       "program.finish": "Finish",
       "dress.title": "Dress Code",
       "dress.men": "Men",
-      "dress.menDesc": "Dark suit and tie",
+      "dress.menDesc": "Burgundy, Powder Pink and White. Please dress modestly.",
       "dress.women": "Women",
-      "dress.womenDesc": "Cocktail or formal dress",
+      "dress.womenDesc": "Burgundy, Powder Pink and White. Please dress modestly.",
       "accommodation.title": "Accommodation",
       "accommodation.subtitle":
         "Alhuda Islamic Center of Indiana (AICI) does not offer lodging. Here are some recommended options nearby.",
@@ -18783,11 +18783,12 @@ const lD = {
       "info.title": "Come Say Hello...",
       "info.subtitle":
         "These are informal gatherings, so feel free to join us if you're in the area.",
-      "info.event1": "Welcome Drinks",
+      "info.event1": "Henna Party",
       "info.event1date": "Friday | 11 September 2026",
-      "info.event1location": "Alhuda Islamic Center Courtyard, Fishers",
+      "info.event1location": "Details to follow",
+      "info.event2": "Sisters Night",
       "info.event2date": "Sunday | 13 September 2026",
-      "info.event2location": "Alhuda Islamic Center of Indiana (AICI), Fishers",
+      "info.event2location": "Details to follow",
       "transport.title": "Location & Transportation",
       "transport.subtitle":
         "How to get to Alhuda Islamic Center of Indiana (AICI)",
@@ -18816,13 +18817,11 @@ From Ronda station, taxi is required (~10 minutes).`,
         "Alhuda Islamic Center of Indiana (AICI), Camino de los Olivos s/n, 29400 Ronda, Málaga – Spain",
       "gifts.title": "Gifts",
       "gifts.text":
-        "Your presence is our greatest gift. If you wish to give us something, please find our bank account information below:",
-      "gifts.account1": "CaixaBank – Rukayyat Kehinde",
-      "gifts.account1details": `IBAN: ES00 0000 0000 0000 0000 0000
-BIC/SWIFT: XXXXXXXXXX`,
-      "gifts.account2": "Banco Santander – Ibrahim Olaide",
-      "gifts.account2details": `IBAN: ES00 0000 0000 0000 0000 0000
-BIC/SWIFT: XXXXXXXXXX`,
+        "Your presence is our greatest gift. If you wish to give us something, please use the details below:",
+      "gifts.account1": "Zelle – Ibrahim Saliu",
+      "gifts.account1details": `(463) 710-5550`,
+      "gifts.account2": "Zelle – Kehinde Adeniran",
+      "gifts.account2details": `kehinde.adeniran@maine.edu`,
       "rsvp.title": "RSVP",
       "rsvp.subtitle": "Let us know if you can make it",
       "rsvp.attend": "Will you be attending? *",
@@ -26085,16 +26084,16 @@ const a4 = "/assets/teacup-illustration-LM5oRWej.png",
   l4 = "/assets/sunday-lunch-illustration-Dn7RcvEs.png",
   c4 = [
     {
-      title: "Welcome Drinks",
+      title: "Henna Party",
       date: "Friday | 14 August 2026",
       time: "8:00 PM",
-      location: "Alhuda Islamic Center Courtyard, Fishers",
+      location: "Details to follow",
     },
     {
-      title: "Farewell Brunch",
-      date: "Sunday | 16 August 2026",
-      time: "12:00 PM",
-      location: "Alhuda Islamic Center of Indiana (AICI), Fishers",
+      title: "Sisters Night",
+      date: "Thursday | 13 August 2026",
+      time: "8:00 PM",
+      location: "Details to follow",
     },
   ];
 function u4() {
@@ -26147,13 +26146,13 @@ function u4() {
                 className:
                   "bg-white rounded-2xl p-6 md:p-8 shadow-lg text-center",
                 children: [
-                  t.title === "Welcome Drinks" &&
+                  t.title === "Henna Party" &&
                     h.jsx("img", {
                       src: l4,
                       alt: "",
                       className: "w-20 h-auto mx-auto mb-3 opacity-90",
                     }),
-                  t.title === "Farewell Brunch" &&
+                  t.title === "Sisters Night" &&
                     h.jsx("img", {
                       src: a4,
                       alt: "",
@@ -36344,8 +36343,8 @@ function S3({
       });
 }
 const ec = {
-  couple_name_1: "Rukayyat",
-  couple_name_2: "Ibrahim",
+  couple_name_1: "Rukayyat Kehinde",
+  couple_name_2: "Ibrahim Oladayo",
   wedding_date: "2026-08-15",
   venue_location: "Alhuda Islamic Center of Indiana (AICI), Ronda, Málaga",
 };
@@ -36909,10 +36908,10 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
   $w = [L3, $3, F3, V3, U3],
   Fw = ["center 40%", "center 35%", "right 50%", "center 30%", "right 40%"],
   ms = {
-    couple_name_1: "Rukayyat",
-    couple_name_2: "Ibrahim",
-    hero_name_1: "Rukayyat",
-    hero_name_2: "Ibrahim",
+    couple_name_1: "Rukayyat Kehinde",
+    couple_name_2: "Ibrahim Oladayo",
+    hero_name_1: "Rukayyat Kehinde",
+    hero_name_2: "Ibrahim Oladayo",
     wedding_date: "2026-08-15",
     venue_name: "Alhuda Islamic Center of Indiana (AICI)",
     venue_address:

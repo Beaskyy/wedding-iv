@@ -1,9 +1,9 @@
 export const weddingDate = "2026-08-15T14:00:00-04:00";
 
 export const couple = {
-  bride: "Rukayyat",
-  groom: "Ibrahim",
-  subtitle: "We're getting married",
+  bride: "Rukayyat Kehinde",
+  groom: "Ibrahim Oladayo",
+  subtitle: "You are invited to the Nikkah of",
   dateLabel: "15 August 2026",
 };
 
@@ -35,21 +35,21 @@ export const programme = [
 ];
 
 export const dressCode = {
-  men: "Dark suit and tie",
-  women: "Cocktail or formal dress",
+  men: "Burgundy, Powder Pink and White. Please dress modestly.",
+  women: "Burgundy, Powder Pink and White. Please dress modestly.",
 };
 
 export const sideEvents = [
   {
-    title: "Welcome Drinks",
+    title: "Henna Party",
     date: "Friday | 14 August 2026",
-    location: "Alhuda Islamic Center Courtyard, Fishers",
+    location: "Details to follow",
     image: "/assets/champagne-tower-Or6MBjHQ.png",
   },
   {
-    title: "Sunday Lunch",
-    date: "Sunday | 16 August 2026",
-    location: "Alhuda Islamic Center of Indiana (AICI), Fishers",
+    title: "Sisters Night",
+    date: "Thursday | 13 August 2026",
+    location: "Details to follow",
     image: "/assets/sunday-lunch-illustration-Dn7RcvEs.png",
   },
 ];
@@ -88,15 +88,13 @@ export const gallery = [
 
 export const gifts = [
   {
-    bank: "CaixaBank",
-    holder: "Rukayyat Kehinde",
-    iban: "ES00 0000 0000 0000 0000 0000",
-    swift: "XXXXXXXXXX",
+    method: "Zelle",
+    name: "Ibrahim Saliu",
+    value: "(463) 710-5550",
   },
   {
-    bank: "Banco Santander",
-    holder: "Ibrahim Olaide",
-    iban: "ES00 0000 0000 0000 0000 0000",
-    swift: "XXXXXXXXXX",
+    method: "Zelle",
+    name: "Kehinde Adeniran",
+    value: "kehinde.adeniran@maine.edu",
   },
 ];
