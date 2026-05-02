@@ -42,13 +42,13 @@ export const dressCode = {
 export const sideEvents = [
   {
     title: "Henna Party",
-    date: "Friday | 14 August 2026",
+    date: "Thursday | 14 August 2026",
     location: "Details to follow",
     image: "/assets/champagne-tower-Or6MBjHQ.png",
   },
   {
     title: "Sisters Night",
-    date: "Thursday | 13 August 2026",
+    date: "Friday| 13 August 2026",
     location: "Details to follow",
     image: "/assets/sunday-lunch-illustration-Dn7RcvEs.png",
   },
@@ -73,18 +73,19 @@ export const travel = {
     "Alhuda Islamic Center of Indiana (AICI), 12213 Lantern Rd, Fishers, IN 46038, United States",
 };
 
-export const gallery = [
-  "/assets/gallery-1-CndRyTXZ.jpg",
-  "/assets/gallery-2-LJ9SqFT7.jpg",
-  "/assets/gallery-3-BqTMMcNY.jpg",
-  "/assets/gallery-4-D3agzgGx.jpg",
-  "/assets/gallery-5-Ca9X0lht.jpg",
-  "/assets/gallery-6-KQCB4EG9.jpg",
-  "/assets/gallery-7-CHFbVCJd.jpg",
-  "/assets/gallery-8-LSBB5t-f.jpg",
-  "/assets/gallery-9-C_h0QLUe.jpg",
-  "/assets/gallery-10-BbneIAac.jpg",
-];
+// Gallery photos replaced with illustrated Muslim couple artwork in WelcomeSection
+// export const gallery = [
+//   "/assets/gallery-1-CndRyTXZ.jpg",
+//   "/assets/gallery-2-LJ9SqFT7.jpg",
+//   "/assets/gallery-3-BqTMMcNY.jpg",
+//   "/assets/gallery-4-D3agzgGx.jpg",
+//   "/assets/gallery-5-Ca9X0lht.jpg",
+//   "/assets/gallery-6-KQCB4EG9.jpg",
+//   "/assets/gallery-7-CHFbVCJd.jpg",
+//   "/assets/gallery-8-LSBB5t-f.jpg",
+//   "/assets/gallery-9-C_h0QLUe.jpg",
+//   "/assets/gallery-10-BbneIAac.jpg",
+// ];
 
 export const gifts = [
   {

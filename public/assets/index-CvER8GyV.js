@@ -25616,38 +25616,14 @@ function QF({ targetDate: e }) {
     }),
   });
 }
-const YF = "/assets/gallery-1-CndRyTXZ.jpg",
-  XF = "/assets/gallery-2-LJ9SqFT7.jpg",
-  JF = "/assets/gallery-3-BqTMMcNY.jpg",
-  ZF = "/assets/gallery-4-D3agzgGx.jpg",
-  e4 = "/assets/gallery-5-Ca9X0lht.jpg",
-  dw = [YF, XF, JF, ZF, e4],
-  hw = ["center 20%", "center 55%", "center 30%", "center 40%", "center 35%"];
+const dw = [
+    { src: "/assets/muslim-couple-1.png", alt: "Muslim couple standing together with floral elements" },
+    { src: "/assets/muslim-couple-2.png", alt: "Muslim couple walking together holding hands" },
+    { src: "/assets/muslim-couple-3.png", alt: "Muslim couple sitting together on an ornate bench" },
+  ];
 function t4() {
-  const { t: e } = At(),
-    t = g.useRef(null);
+  const { t: e } = At();
   return (
-    g.useEffect(() => {
-      let n;
-      const r = () => {
-        const s = t.current;
-        s &&
-          ((s.style.animationPlayState = "paused"),
-          clearTimeout(n),
-          (n = setTimeout(() => {
-            s && (s.style.animationPlayState = "running");
-          }, 100)));
-      };
-      return (
-        window.addEventListener("resize", r),
-        document.addEventListener("visibilitychange", () => {
-          document.hidden || r();
-        }),
-        () => {
-          (window.removeEventListener("resize", r), clearTimeout(n));
-        }
-      );
-    }, []),
     h.jsxs("section", {
       className: "section-padding pb-0 bg-ivory",
       children: [
@@ -25677,52 +25653,32 @@ function t4() {
           ],
         }),
         h.jsx(te.div, {
-          initial: { opacity: 0 },
-          whileInView: { opacity: 1 },
+          initial: { opacity: 0, y: 20 },
+          whileInView: { opacity: 1, y: 0 },
           viewport: { once: !0 },
-          transition: { duration: 1, delay: 0.3 },
-          className: "w-full overflow-hidden",
-          children: h.jsxs("div", {
-            ref: t,
-            className: "flex animate-marquee gap-3 md:gap-4",
-            style: { width: "max-content" },
-            children: [
-              dw.map((n, r) =>
-                h.jsx(
-                  "div",
-                  {
-                    className: "flex-shrink-0 overflow-hidden",
-                    style: { height: "340px", width: "240px" },
-                    children: h.jsx("img", {
-                      src: n,
-                      alt: "",
-                      className: "h-full w-full object-cover",
-                      style: { objectPosition: hw[r] },
-                      draggable: !1,
-                    }),
-                  },
-                  `a-${r}`,
-                ),
-              ),
-              dw.map((n, r) =>
-                h.jsx(
-                  "div",
-                  {
-                    className: "flex-shrink-0 overflow-hidden",
-                    style: { height: "340px", width: "240px" },
-                    children: h.jsx("img", {
-                      src: n,
-                      alt: "",
-                      className: "h-full w-full object-cover",
-                      style: { objectPosition: hw[r] },
-                      draggable: !1,
-                    }),
-                  },
-                  `b-${r}`,
-                ),
-              ),
-            ],
-          }),
+          transition: { duration: 0.8, delay: 0.3 },
+          className: "flex flex-wrap justify-center items-end gap-6 px-4 max-w-4xl mx-auto pb-4",
+          children: dw.map((img, idx) =>
+            h.jsx(
+              te.div,
+              {
+                initial: { opacity: 0, y: 24 },
+                whileInView: { opacity: 1, y: idx === 1 ? -8 : 0 },
+                viewport: { once: !0 },
+                transition: { duration: 0.7, delay: 0.1 + idx * 0.15 },
+                whileHover: { y: idx === 1 ? -14 : -6, scale: 1.02 },
+                className: "flex-shrink-0 overflow-hidden rounded-2xl shadow-lg",
+                style: { width: "260px", maxWidth: "80vw" },
+                children: h.jsx("img", {
+                  src: img.src,
+                  alt: img.alt,
+                  className: "w-full h-auto block",
+                  draggable: !1,
+                }),
+              },
+              img.src,
+            ),
+          ),
         }),
       ],
     })
@@ -26085,14 +26041,14 @@ const a4 = "/assets/teacup-illustration-LM5oRWej.png",
   c4 = [
     {
       title: "Henna Party",
-      date: "Friday | 14 August 2026",
-      time: "8:00 PM",
+      date: "Thursday | 13 August 2026",
+      time: "12:00 noon",
       location: "Details to follow",
     },
     {
       title: "Sisters Night",
-      date: "Thursday | 13 August 2026",
-      time: "8:00 PM",
+      date: "Friday | 14 August 2026",
+      time: "6:00 PM",
       location: "Details to follow",
     },
   ];

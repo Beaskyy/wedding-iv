@@ -9,14 +9,7 @@ export default function DressSection({ dressCode, venue }) {
         <div className="dress-card card-paper translucent fade-up">
           <SectionHeading eyebrow="Style" title="Dress Code" />
           <div className="split-copy">
-            <div>
-              <h3>Men</h3>
-              <p>{dressCode.men}</p>
-            </div>
-            <div>
-              <h3>Women</h3>
-              <p>{dressCode.women}</p>
-            </div>
+            <p>{dressCode.men}</p>
           </div>
         </div>
       </div>
