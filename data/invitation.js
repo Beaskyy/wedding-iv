@@ -44,7 +44,7 @@ export const sideEvents = [
     title: "Henna Party",
     date: "Thursday | 14 August 2026",
     location: "Details to follow",
-    image: "/assets/champagne-tower-Or6MBjHQ.png",
+    image: "/assets/tower.jpeg",
   },
   {
     title: "Sisters Night",

@@ -25926,35 +25926,10 @@ function i4() {
                   "font-display text-4xl md:text-7xl text-sage-dark mb-8",
                 children: e("dress.title"),
               }),
-              h.jsxs("div", {
-                className: "mb-8",
-                children: [
-                  h.jsx("h3", {
-                    className:
-                      "font-display text-3xl md:text-4xl text-sage-dark mb-2",
-                    children: e("dress.women"),
-                  }),
-                  h.jsx("p", {
-                    className:
-                      "text-sage-dark/70 font-body text-sm italic leading-relaxed max-w-md mx-auto",
-                    children: e("dress.womenDesc"),
-                  }),
-                ],
-              }),
-              h.jsx("div", { className: "w-16 h-px bg-sage/30 mx-auto mb-8" }),
-              h.jsxs("div", {
-                children: [
-                  h.jsx("h3", {
-                    className:
-                      "font-display text-3xl md:text-4xl text-sage-dark mb-2",
-                    children: e("dress.men"),
-                  }),
-                  h.jsx("p", {
-                    className:
-                      "text-sage-dark/70 font-body text-sm italic leading-relaxed max-w-md mx-auto",
-                    children: e("dress.menDesc"),
-                  }),
-                ],
+              h.jsx("p", {
+                className:
+                  "text-sage-dark/70 font-body text-sm italic leading-relaxed max-w-md mx-auto",
+                children: e("dress.womenDesc"),
               }),
             ],
           }),
@@ -36852,8 +36827,8 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
   A3 = "/assets/matchbox-illustration-Cje_YC4u.png",
   N3 = "/assets/bow-illustration-DWFdIPv5.png",
   j3 = "/assets/locket-illustration.png",
-  O3 = "/assets/champagne-tower-Or6MBjHQ.png",
-  I3 = "/assets/wedding-rings-_6IG5mf0.png",
+  O3 = "/assets/calligraphy.png",
+  I3 = "/assets/wedding-rings.png",
   D3 = "/assets/swans-framed-ByH4RE7t.png",
   M3 = "/assets/watermark-CS4rvcxG.png",
   L3 = "/assets/gallery-6-KQCB4EG9.jpg",
@@ -36931,6 +36906,7 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
               src: O3,
               alt: "",
               className: "w-32 md:w-40 h-auto opacity-80",
+              style: { mixBlendMode: "multiply" },
             }),
           }),
           h.jsx(i4, {}),
@@ -37010,7 +36986,7 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
             children: h.jsx("img", {
               src: I3,
               alt: "",
-              className: "w-24 md:w-32 h-auto opacity-80",
+              className: "w-36 md:w-48 h-auto opacity-80",
             }),
           }),
           h.jsx(_3, {
