@@ -18772,9 +18772,11 @@ const lD = {
       "program.finish": "Finish",
       "dress.title": "Dress Code",
       "dress.men": "Men",
-      "dress.menDesc": "Burgundy, Powder Pink and White. Please dress modestly.",
+      "dress.menDesc":
+        "Burgundy, Powder Pink and White. Please dress modestly.",
       "dress.women": "Women",
-      "dress.womenDesc": "Burgundy, Powder Pink and White. Please dress modestly.",
+      "dress.womenDesc":
+        "Burgundy, Powder Pink and White. Please dress modestly.",
       "accommodation.title": "Accommodation",
       "accommodation.subtitle":
         "Alhuda Islamic Center of Indiana (AICI) does not offer lodging. Here are some recommended options nearby.",
@@ -18790,8 +18792,7 @@ const lD = {
       "info.event2date": "Sunday | 13 September 2026",
       "info.event2location": "Details to follow",
       "transport.title": "Location & Transportation",
-      "transport.subtitle":
-        "How to get to The Bliss Space",
+      "transport.subtitle": "How to get to The Bliss Space",
       "transport.overview":
         "The Bliss Space is located in Indianapolis, Indiana. The most convenient way to get there is by car, taxi or private transfer.",
       "transport.byCar": "By Car",
@@ -18901,8 +18902,7 @@ From Ronda station, taxi is required (~10 minutes).`,
       "info.event2date": "Domingo | 13 de Septiembre de 2026",
       "info.event2location": "Parador de Ronda (terraza)",
       "transport.title": "Ubicación y Transporte",
-      "transport.subtitle":
-        "Cómo llegar a The Bliss Space",
+      "transport.subtitle": "Cómo llegar a The Bliss Space",
       "transport.overview":
         "The Bliss Space se encuentra en Indianapolis, Indiana. La forma más cómoda de llegar es en coche, taxi o transfer privado.",
       "transport.byCar": "En Coche",
@@ -25618,36 +25618,33 @@ function QF({ targetDate: e }) {
 }
 function t4() {
   const { t: e } = At();
-  return (
-    h.jsx("section", {
-      className: "section-padding pb-0 bg-ivory",
-      children: h.jsxs("div", {
-          className: "max-w-3xl mx-auto text-center mb-12 md:mb-16",
-          children: [
-            h.jsx(te.h2, {
-              initial: { opacity: 0, y: 20 },
-              whileInView: { opacity: 1, y: 0 },
-              viewport: { once: !0 },
-              transition: { duration: 0.6, delay: 0.1 },
-              className:
-                "font-display text-4xl md:text-7xl text-sage-dark mb-6",
-              children: e("welcome.title"),
-            }),
-            h.jsx(te.div, {
-              initial: { opacity: 0, y: 20 },
-              whileInView: { opacity: 1, y: 0 },
-              viewport: { once: !0 },
-              transition: { duration: 0.8, delay: 0.15 },
-              children: h.jsx("div", {
-                className:
-                  "text-sage-dark/90 font-body text-lg leading-relaxed italic",
-                children: h.jsx("p", { children: e("welcome.text") }),
-              }),
-            }),
-          ],
+  return h.jsx("section", {
+    className: "section-padding pb-0 bg-ivory",
+    children: h.jsxs("div", {
+      className: "max-w-3xl mx-auto text-center mb-12 md:mb-16",
+      children: [
+        h.jsx(te.h2, {
+          initial: { opacity: 0, y: 20 },
+          whileInView: { opacity: 1, y: 0 },
+          viewport: { once: !0 },
+          transition: { duration: 0.6, delay: 0.1 },
+          className: "font-display text-4xl md:text-7xl text-sage-dark mb-6",
+          children: e("welcome.title"),
         }),
-    })
-  );
+        h.jsx(te.div, {
+          initial: { opacity: 0, y: 20 },
+          whileInView: { opacity: 1, y: 0 },
+          viewport: { once: !0 },
+          transition: { duration: 0.8, delay: 0.15 },
+          children: h.jsx("div", {
+            className:
+              "text-sage-dark/90 font-body text-lg leading-relaxed italic",
+            children: h.jsx("p", { children: e("welcome.text") }),
+          }),
+        }),
+      ],
+    }),
+  });
 }
 const n4 = "/assets/mosque-animate.png";
 function r4() {
@@ -36868,7 +36865,7 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
               className: "w-24 md:w-32 h-auto opacity-80",
             }),
           }),
-          h.jsx("div", {
+          /* h.jsx("div", {
             className: "bg-ivory w-full overflow-hidden pb-16 md:pb-20",
             children: h.jsxs("div", {
               ref: e,
@@ -36911,7 +36908,7 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
                 ),
               ],
             }),
-          }),
+          }), */
           h.jsx(o4, { enabled: !0 }),
           h.jsx("div", {
             className: "bg-ivory flex justify-center py-10 md:py-14",
