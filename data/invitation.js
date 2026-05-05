@@ -44,13 +44,13 @@ export const sideEvents = [
     title: "Henna Party",
     date: "Thursday | 14 August 2026",
     location: "Details to follow",
-    image: "/assets/tower.jpeg",
+    image: "/assets/henna-hand.png",
   },
   {
     title: "Sisters Night",
     date: "Friday| 13 August 2026",
     location: "Details to follow",
-    image: "/assets/sunday-lunch-illustration-Dn7RcvEs.png",
+    image: "/assets/tower.jpeg",
   },
 ];
 

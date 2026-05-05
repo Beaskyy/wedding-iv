@@ -26044,13 +26044,13 @@ function u4() {
                 children: [
                   t.title === "Henna Party" &&
                     h.jsx("img", {
-                      src: l4,
+                      src: "/assets/henna-hand.png",
                       alt: "",
                       className: "w-20 h-auto mx-auto mb-3 opacity-90",
                     }),
                   t.title === "Sisters Night" &&
                     h.jsx("img", {
-                      src: a4,
+                      src: l4,
                       alt: "",
                       className: "w-20 h-auto mx-auto mb-3 opacity-90",
                     }),
