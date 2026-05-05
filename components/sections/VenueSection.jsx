@@ -6,7 +6,7 @@ export default function VenueSection({ couple, programme, venue }) {
       <div className="content-wrap two-column feature-layout">
         <div className="card-paper venue-card fade-up">
           <img className="venue-card-image" src={venue.cardImage} alt={venue.name} />
-          <SectionHeading eyebrow="The Venue" title={venue.name} text="Where we celebrate" />
+          <SectionHeading eyebrow="The Venue" title={venue.name} text="Aqd Nikah Ceremony" />
           <div className="venue-meta">
             <p>{couple.dateLabel}</p>
             <p>{venue.addressLine1}</p>

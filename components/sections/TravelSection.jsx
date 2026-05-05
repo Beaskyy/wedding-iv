@@ -7,7 +7,7 @@ export default function TravelSection({ gifts, travel }) {
         <div className="card-paper venue-card fade-up">
           <SectionHeading
             eyebrow="Travel"
-            title="Location & Transportation"
+            title="Reception follows"
             text={travel.overview}
           />
           <div className="travel-block">
