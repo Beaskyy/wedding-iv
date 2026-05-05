@@ -36530,27 +36530,6 @@ function E3() {
                                           "bg-ivory border-[#c5a46d]/30 text-sage-dark placeholder:text-sage-dark/50 focus:border-[#c5a46d]",
                                         placeholder: e("rsvp.email"),
                                       }),
-                                    h.jsxs("div", {
-                                      className: "space-y-2",
-                                      children: [
-                                        h.jsx(ht, {
-                                          htmlFor: `dietary-${_}`,
-                                          className:
-                                            "text-sm text-sage-dark/80",
-                                          children: e("rsvp.dietary"),
-                                        }),
-                                        h.jsx(Fr, {
-                                          id: `dietary-${_}`,
-                                          value: E.dietaryRequirements,
-                                          onChange: (C) => y(_, C.target.value),
-                                          className:
-                                            "bg-ivory border-[#c5a46d]/30 text-sage-dark placeholder:text-sage-dark/50 focus:border-[#c5a46d]",
-                                          placeholder: e(
-                                            "rsvp.dietaryPlaceholder",
-                                          ),
-                                        }),
-                                      ],
-                                    }),
                                   ],
                                 },
                                 _,
@@ -36849,11 +36828,11 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
           h.jsx(r4, {}),
           h.jsx(f4, {}),
           h.jsx("div", {
-            className: "bg-ivory flex items-center justify-center py-10 md:py-14",
+            className: "bg-ivory flex items-center justify-center pb-10",
             children: h.jsx("img", {
               src: "/assets/calligraphy.png",
               alt: "calligraphy",
-              className: "block max-w-xs md:max-w-sm h-auto opacity-90",
+              className: "block w-32 md:w-40 h-auto opacity-90",
               style: { margin: "0 auto" },
               loading: "lazy",
             }),
