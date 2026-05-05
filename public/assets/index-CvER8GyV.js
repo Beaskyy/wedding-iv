@@ -18759,7 +18759,7 @@ const lD = {
       "welcome.text":
         "And of His signs is that He created for you from yourselves mates that you may find tranquility in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.",
       "events.title": "The Venue",
-      "events.subtitle": "Aqd Nikah Ceremony",
+      "events.subtitle": "Aqd Nikkah Ceremony",
       "events.date": "15 August 2026 | 10:00 AM",
       "events.openMaps": "Open in Maps",
       "program.title": "Day Programme",
@@ -25480,7 +25480,7 @@ function KF() {
     [n, r] = g.useState(!1),
     s = g.useRef(null);
   g.useEffect(() => {
-    (dt || ((dt = new Audio(HF)), (dt.loop = !0), (dt.volume = 0.02)),
+    (dt || ((dt = new Audio(HF)), (dt.loop = !0), (dt.volume = 0.01)),
       (s.current = dt));
     const a = () => r(!0),
       l = () => r(!1);
@@ -25497,7 +25497,7 @@ function KF() {
   }, []);
   const i = g.useCallback(() => {
       if (s.current && !uw) {
-        ((uw = !0), (s.current.volume = 0.05));
+        ((uw = !0), (s.current.volume = 0.01));
         const a = s.current.play();
         a &&
           a.catch(() => {
@@ -25507,7 +25507,7 @@ function KF() {
     }, []),
     o = g.useCallback(() => {
       s.current &&
-        ((s.current.volume = 0.05),
+        ((s.current.volume = 0.01),
         (s.current.muted = !s.current.muted),
         t(s.current.muted));
     }, []);
@@ -36849,11 +36849,12 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
           h.jsx(r4, {}),
           h.jsx(f4, {}),
           h.jsx("div", {
-            className: "bg-ivory flex justify-center py-10 md:py-14",
+            className: "bg-ivory flex items-center justify-center py-10 md:py-14",
             children: h.jsx("img", {
               src: "/assets/calligraphy.png",
               alt: "calligraphy",
-              className: "w-full max-w-md md:max-w-lg h-auto opacity-90 mx-auto px-6",
+              className: "block max-w-xs md:max-w-sm h-auto opacity-90",
+              style: { margin: "0 auto" },
               loading: "lazy",
             }),
           }),
