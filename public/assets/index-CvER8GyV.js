@@ -18791,13 +18791,13 @@ const lD = {
       "info.event2location": "Details to follow",
       "transport.title": "Location & Transportation",
       "transport.subtitle":
-        "How to get to Alhuda Islamic Center of Indiana (AICI)",
+        "How to get to The Bliss Space",
       "transport.overview":
-        "Alhuda Islamic Center of Indiana (AICI) is located in Ronda, Málaga, in the heart of Andalusia. The most convenient way to get there is by car, taxi or private transfer.",
+        "The Bliss Space is located in Indianapolis, Indiana. The most convenient way to get there is by car, taxi or private transfer.",
       "transport.byCar": "By Car",
-      "transport.byCarDetails": `From Málaga: ~1h 30min via A-357 and A-367
-From Seville: ~2h via A-376
-From Marbella: ~1h via A-397`,
+      "transport.byCarDetails": `From Downtown Indianapolis: ~25 minutes via I-69 N
+From Indianapolis International Airport (IND): ~35 minutes via I-70 E and I-465 N
+From Fishers: ~10 minutes via E 96th St and Hague Rd`,
       "transport.airports": "Airports",
       "transport.heathrow": `Málaga Airport (AGP)
 1h 30min by car via A-357 / A-367`,
@@ -18814,7 +18814,7 @@ From Ronda station, taxi is required (~10 minutes).`,
       "transport.privateTransfer": "Private Transfer",
       "transport.address": "Address",
       "transport.fullAddress":
-        "Alhuda Islamic Center of Indiana (AICI), Camino de los Olivos s/n, 29400 Ronda, Málaga – Spain",
+        "The Bliss Space, 8445 Castleton Corner Dr, Indianapolis, IN 46250, United States",
       "gifts.title": "Gifts",
       "gifts.text":
         "Your presence is our greatest gift. If you wish to give us something, please use the details below:",
@@ -18902,13 +18902,13 @@ From Ronda station, taxi is required (~10 minutes).`,
       "info.event2location": "Parador de Ronda (terraza)",
       "transport.title": "Ubicación y Transporte",
       "transport.subtitle":
-        "Cómo llegar a Alhuda Islamic Center of Indiana (AICI)",
+        "Cómo llegar a The Bliss Space",
       "transport.overview":
-        "Alhuda Islamic Center of Indiana (AICI) se encuentra en Ronda, Málaga, en el corazón de Andalucía. La forma más cómoda de llegar es en coche, taxi o transfer privado.",
+        "The Bliss Space se encuentra en Indianapolis, Indiana. La forma más cómoda de llegar es en coche, taxi o transfer privado.",
       "transport.byCar": "En Coche",
-      "transport.byCarDetails": `Desde Málaga: ~1h 30min por A-357 y A-367
-Desde Sevilla: ~2h por A-376
-Desde Marbella: ~1h por A-397`,
+      "transport.byCarDetails": `Desde el centro de Indianapolis: ~25 minutos por I-69 N
+Desde el Aeropuerto Internacional de Indianapolis (IND): ~35 minutos por I-70 E e I-465 N
+Desde Fishers: ~10 minutos por E 96th St y Hague Rd`,
       "transport.airports": "Aeropuertos",
       "transport.heathrow": `Aeropuerto de Málaga (AGP)
 1h 30min en coche por A-357 / A-367`,
@@ -18925,7 +18925,7 @@ Desde la estación, se necesita taxi (~10 minutos).`,
       "transport.privateTransfer": "Transfer Privado",
       "transport.address": "Dirección",
       "transport.fullAddress":
-        "Alhuda Islamic Center of Indiana (AICI), Camino de los Olivos s/n, 29400 Ronda, Málaga – España",
+        "The Bliss Space, 8445 Castleton Corner Dr, Indianapolis, IN 46250, Estados Unidos",
       "gifts.title": "Regalos",
       "gifts.text":
         "Vuestra presencia es nuestro mayor regalo. Si deseáis hacernos un obsequio, aquí tenéis los datos bancarios:",
@@ -25616,18 +25616,12 @@ function QF({ targetDate: e }) {
     }),
   });
 }
-const dw = [
-    { src: "/assets/muslim-couple-1.png", alt: "Muslim couple standing together with floral elements" },
-    { src: "/assets/muslim-couple-2.png", alt: "Muslim couple walking together holding hands" },
-    { src: "/assets/muslim-couple-3.png", alt: "Muslim couple sitting together on an ornate bench" },
-  ];
 function t4() {
   const { t: e } = At();
   return (
-    h.jsxs("section", {
+    h.jsx("section", {
       className: "section-padding pb-0 bg-ivory",
-      children: [
-        h.jsxs("div", {
+      children: h.jsxs("div", {
           className: "max-w-3xl mx-auto text-center mb-12 md:mb-16",
           children: [
             h.jsx(te.h2, {
@@ -25652,35 +25646,6 @@ function t4() {
             }),
           ],
         }),
-        h.jsx(te.div, {
-          initial: { opacity: 0, y: 20 },
-          whileInView: { opacity: 1, y: 0 },
-          viewport: { once: !0 },
-          transition: { duration: 0.8, delay: 0.3 },
-          className: "flex flex-wrap justify-center items-end gap-6 px-4 max-w-4xl mx-auto pb-4",
-          children: dw.map((img, idx) =>
-            h.jsx(
-              te.div,
-              {
-                initial: { opacity: 0, y: 24 },
-                whileInView: { opacity: 1, y: idx === 1 ? -8 : 0 },
-                viewport: { once: !0 },
-                transition: { duration: 0.7, delay: 0.1 + idx * 0.15 },
-                whileHover: { y: idx === 1 ? -14 : -6, scale: 1.02 },
-                className: "flex-shrink-0 overflow-hidden rounded-2xl shadow-lg",
-                style: { width: "260px", maxWidth: "80vw" },
-                children: h.jsx("img", {
-                  src: img.src,
-                  alt: img.alt,
-                  className: "w-full h-auto block",
-                  draggable: !1,
-                }),
-              },
-              img.src,
-            ),
-          ),
-        }),
-      ],
     })
   );
 }
@@ -26314,7 +26279,7 @@ function f4() {
                 ],
               }),
               h.jsx("a", {
-                href: "https://www.google.com/maps/search/?api=1&query=Alhuda+Islamic+Center+of+Indiana+%28AICI%29+12213+Lantern+Rd+Fishers+IN+46038",
+                href: "https://www.google.com/maps/dir/?api=1&destination=The+Bliss+Space,+8445+Castleton+Corner+Dr,+Indianapolis,+IN+46250",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className:
@@ -36883,41 +36848,17 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
           }),
           h.jsx(QF, { targetDate: ms.wedding_date }),
           h.jsx(t4, {}),
-          h.jsxs("div", {
-            className: "bg-ivory flex flex-col items-center py-16 md:py-20",
-            children: [
-              h.jsx("div", { className: "w-24 h-px bg-sage-dark/20 mb-10" }),
-              h.jsx("img", {
-                src: P3,
-                alt: "",
-                className: "w-32 md:w-40 h-auto opacity-80",
-              }),
-            ],
-          }),
+          null,
           h.jsx(r4, {}),
+          h.jsx(f4, {}),
           h.jsx("div", {
             className: "bg-ivory flex justify-center py-16 md:py-20",
             children: h.jsx("div", { className: "w-24 h-px bg-sage-dark/20" }),
           }),
           h.jsx(s4, {}),
-          h.jsx("div", {
-            className: "bg-ivory flex justify-center py-16 md:py-20",
-            children: h.jsx("img", {
-              src: O3,
-              alt: "",
-              className: "w-32 md:w-40 h-auto opacity-80",
-              style: { mixBlendMode: "multiply" },
-            }),
-          }),
+          null,
           h.jsx(i4, {}),
-          h.jsx("div", {
-            className: "bg-ivory flex flex-col items-center py-16 md:py-20",
-            children: h.jsx("img", {
-              src: N3,
-              alt: "",
-              className: "w-16 md:w-20 h-auto opacity-80",
-            }),
-          }),
+          null,
           h.jsx(u4, {}),
           h.jsx("div", {
             className: "bg-ivory flex justify-center py-16 md:py-20",
