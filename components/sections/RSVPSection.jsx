@@ -103,10 +103,6 @@ export default function RSVPSection({ couple }) {
                   <option value="yes">Yes</option>
                 </select>
               </label>
-              <label>
-                <span>Dietary requirements</span>
-                <input name="dietary" value={form.dietary} onChange={update} placeholder="e.g. vegetarian, allergies" />
-              </label>
             </div>
             <label>
               <span>Message for the couple</span>

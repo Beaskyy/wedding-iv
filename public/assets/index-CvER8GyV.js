@@ -36021,16 +36021,15 @@ const v3 = "https://etxixznvxwjjkivempzk.supabase.co",
 function x3() {
   return iE({
     mutationFn: async (e) => {
-      const { data: t, error: n } = await rd.functions.invoke("submit-rsvp", {
-        body: e,
-      });
+      const r_res = await fetch("/api/rsvp", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(e) });
+      const t = await r_res.json(); const n = r_res.ok ? null : { message: t.error || "Error" };
       if (n) throw n;
       if (t != null && t.error) throw new Error(t.error);
       return { isUpdate: !1 };
     },
   });
 }
-const b3 = "/assets/rsvp-confirmation-DYbKwzwP.webm";
+const b3 = "";
 function S3({
   attendance: e,
   name1: t,
@@ -36054,7 +36053,7 @@ function S3({
       timeZone: "UTC",
     });
   g.useEffect(() => {
-    if (e === "no") {
+    if (true) {
       (l(!0),
         setTimeout(() => {
           const C = document.getElementById("rsvp-confirmation");
@@ -36284,14 +36283,7 @@ function E3() {
       E.preventDefault();
       const _ = c.map((D) => D.name).filter((D) => D.trim()),
         C = d.message || void 0,
-        T = c
-          .map((D, R) =>
-            D.dietaryRequirements.trim()
-              ? `${D.name || `Guest ${R + 1}`}: ${D.dietaryRequirements.trim()}`
-              : null,
-          )
-          .filter(Boolean)
-          .join(" | ");
+        T = "";
       try {
         (await p.mutateAsync({
           full_name:
@@ -36301,7 +36293,7 @@ function E3() {
           guest_count: r,
           adult_count: r,
           children_count: i === "yes" ? a : 0,
-          dietary_requirements: T || void 0,
+          dietary_requirements: void 0,
           message: C,
           website: d.website,
         }),
@@ -36828,7 +36820,7 @@ const P3 = "/assets/floral-vase-6x28LN74.png",
           h.jsx(r4, {}),
           h.jsx(f4, {}),
           h.jsx("div", {
-            className: "bg-ivory flex items-center justify-center pb-10",
+            className: "bg-ivory flex items-center justify-center p-10",
             children: h.jsx("img", {
               src: "/assets/calligraphy.png",
               alt: "calligraphy",
