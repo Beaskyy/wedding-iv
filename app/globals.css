@@ -24,7 +24,7 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--ivory);
-  font-family: "adobe-caslon-pro", Georgia, serif;
+  font-family: "arek-armenian", Georgia, serif;
 }
 
 a {
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "bely-display", "Great Vibes", serif;
+  font-family: "sweet-fancy-script", cursive;
   font-weight: 400;
 }
 
@@ -286,7 +286,7 @@ h6 {
 }
 
 .countdown-copy strong {
-  font-family: "bely-display", "Great Vibes", serif;
+  font-family: "sweet-fancy-script", cursive;
   font-size: clamp(3rem, 8vw, 4.75rem);
   line-height: 1;
   color: var(--sage-dark);
