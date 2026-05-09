@@ -25339,7 +25339,7 @@ const FF = {
   VF = { layout: { ProjectionNode: Y_, MeasureLayout: B_ } },
   UF = { ...T$, ...FF, ...PF, ...VF },
   te = zL(UF, n$),
-  BF = "/assets/hero-video-BkP1eoiB.mp4";
+  BF = "/assets/hero.mp4";
 function zF({ name1: e, name2: t }) {
   const { t: n } = At(),
     r = () => {
@@ -36709,7 +36709,6 @@ function _3({ name1: e, name2: t, date: n }) {
 }
 const C3 = "/assets/intro-video-new-XmwQeafK.mp4",
   Mw = "/assets/intro-poster.png",
-  bismillahSealAsset = "/assets/bismillah-seal.png",
   k3 = ({ onEnter: e, onStartMusic: t }) => {
     const [n, r] = g.useState("idle"),
       a = () => {

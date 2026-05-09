@@ -42,7 +42,7 @@ export default function HeroSection({ couple, venue, isOpened }) {
           poster={venue.heroImage}
           className="hero-video"
         >
-          <source src="/assets/hero-video-BkP1eoiB.mp4" type="video/mp4" />
+          <source src="/assets/hero.mp4" type="video/mp4" />
         </video>
         <div className="hero-overlay" />
       </div>
