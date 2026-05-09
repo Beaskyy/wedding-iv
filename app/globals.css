@@ -322,7 +322,7 @@ h6 {
   color: rgba(109, 90, 67, 0.9);
   font-size: 1.125rem;
   line-height: 1.8;
-  font-style: italic;
+  font-style: normal;
 }
 
 .welcome-verse p {
@@ -382,8 +382,9 @@ h6 {
   box-shadow:
     0 12px 40px -8px rgba(59, 38, 19, 0.12),
     0 4px 16px -4px rgba(59, 38, 19, 0.08);
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
-              box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transition:
+    transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   animation: illustrationFadeIn 0.8s ease both;
 }
 

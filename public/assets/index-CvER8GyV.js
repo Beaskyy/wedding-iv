@@ -18792,13 +18792,13 @@ const lD = {
       "info.event2date": "Sunday | 13 September 2026",
       "info.event2location": "Details to follow",
       "transport.title": "Reception Follows",
-      "transport.subtitle": "How to get to The Bliss Space",
+      "transport.subtitle": "How to get to Olas Villa",
       "transport.overview":
-        "The Bliss Space is located in Indianapolis, Indiana. The most convenient way to get there is by car, taxi or private transfer.",
+        "The reception venue is located on the west side of Indianapolis, Indiana. The most convenient way to get there is by car, taxi or private transfer.",
       "transport.byCar": "By Car",
-      "transport.byCarDetails": `From Downtown Indianapolis: ~25 minutes via I-69 N
-From Indianapolis International Airport (IND): ~35 minutes via I-70 E and I-465 N
-From Fishers: ~10 minutes via E 96th St and Hague Rd`,
+      "transport.byCarDetails": `From Downtown Indianapolis: ~15 minutes via I-70 W
+From Indianapolis International Airport (IND): ~15 minutes via I-70 E
+From Fishers: ~35 minutes via I-465 W and I-70 W`,
       "transport.airports": "Airports",
       "transport.heathrow": `Málaga Airport (AGP)
 1h 30min by car via A-357 / A-367`,
@@ -18815,7 +18815,7 @@ From Ronda station, taxi is required (~10 minutes).`,
       "transport.privateTransfer": "Private Transfer",
       "transport.address": "Address",
       "transport.fullAddress":
-        "The Bliss Space, 8445 Castleton Corner Dr, Indianapolis, IN 46250, United States",
+        "Olas Villa, 6450 W 10th St STE 5, Indianapolis, IN 46214, United States",
       "gifts.title": "Gifts",
       "gifts.text":
         "Your presence is our greatest gift. If you wish to give us something, please use the details below:",
@@ -18902,13 +18902,13 @@ From Ronda station, taxi is required (~10 minutes).`,
       "info.event2date": "Domingo | 13 de Septiembre de 2026",
       "info.event2location": "Parador de Ronda (terraza)",
       "transport.title": "Ubicación y Transporte",
-      "transport.subtitle": "Cómo llegar a The Bliss Space",
+      "transport.subtitle": "Cómo llegar a Olas Villa",
       "transport.overview":
-        "The Bliss Space se encuentra en Indianapolis, Indiana. La forma más cómoda de llegar es en coche, taxi o transfer privado.",
+        "El lugar de la recepción se encuentra en la zona oeste de Indianapolis, Indiana. La forma más cómoda de llegar es en coche, taxi o transfer privado.",
       "transport.byCar": "En Coche",
-      "transport.byCarDetails": `Desde el centro de Indianapolis: ~25 minutos por I-69 N
-Desde el Aeropuerto Internacional de Indianapolis (IND): ~35 minutos por I-70 E e I-465 N
-Desde Fishers: ~10 minutos por E 96th St y Hague Rd`,
+      "transport.byCarDetails": `Desde el centro de Indianapolis: ~15 minutos por I-70 W
+Desde el Aeropuerto Internacional de Indianapolis (IND): ~15 minutos por I-70 E
+Desde Fishers: ~35 minutos por I-465 W e I-70 W`,
       "transport.airports": "Aeropuertos",
       "transport.heathrow": `Aeropuerto de Málaga (AGP)
 1h 30min en coche por A-357 / A-367`,
@@ -18925,7 +18925,7 @@ Desde la estación, se necesita taxi (~10 minutos).`,
       "transport.privateTransfer": "Transfer Privado",
       "transport.address": "Dirección",
       "transport.fullAddress":
-        "The Bliss Space, 8445 Castleton Corner Dr, Indianapolis, IN 46250, Estados Unidos",
+        "Olas Villa, 6450 W 10th St STE 5, Indianapolis, IN 46214, Estados Unidos",
       "gifts.title": "Regalos",
       "gifts.text":
         "Vuestra presencia es nuestro mayor regalo. Si deseáis hacernos un obsequio, aquí tenéis los datos bancarios:",
@@ -25749,12 +25749,12 @@ function r4() {
 function s4() {
   const { t: e } = At(),
     t = [
-      { time: "9:30", labelKey: "program.arrival", side: "right" },
-      { time: "10:00", labelKey: "program.ceremony", side: "left" },
+      { time: "10:00", labelKey: "program.arrival", side: "right" },
+      { time: "10:30", labelKey: "program.ceremony", side: "left" },
       { time: "11:00", labelKey: "program.cocktails", side: "right" },
-      { time: "12:00", labelKey: "program.dinner", side: "left" },
-      { time: "13:00", labelKey: "program.cake", side: "right" },
-      { time: "16:00", labelKey: "program.finish", side: "left" },
+      { time: "13:00", labelKey: "program.dinner", side: "left" },
+      { time: "14:00", labelKey: "program.cake", side: "right" },
+      { time: "21:00", labelKey: "program.finish", side: "left" },
     ];
   return h.jsx("section", {
     className: "section-padding relative overflow-hidden",
@@ -26276,7 +26276,7 @@ function f4() {
                 ],
               }),
               h.jsx("a", {
-                href: "https://www.google.com/maps/dir/?api=1&destination=The+Bliss+Space,+8445+Castleton+Corner+Dr,+Indianapolis,+IN+46250",
+                href: "https://www.google.com/maps/dir/?api=1&destination=Olas+Villa,+6450+W+10th+St+STE+5,+Indianapolis,+IN+46214",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className:
