@@ -25638,7 +25638,7 @@ function t4() {
           transition: { duration: 0.8, delay: 0.15 },
           children: h.jsx("div", {
             className:
-              "text-sage-dark/90 font-body text-lg leading-relaxed italic",
+              "text-sage-dark/90 font-body text-lg leading-relaxed",
             children: h.jsx("p", { children: e("welcome.text") }),
           }),
         }),
@@ -25690,7 +25690,7 @@ function r4() {
             }),
             h.jsx("h3", {
               className:
-                "font-display text-3xl md:text-4xl text-sage-dark mb-6 border-b border-gold/20 pb-4",
+                "font-body text-2xl md:text-3xl font-semibold text-sage-dark mb-6 border-b border-gold/20 pb-4",
               children: "Alhuda Islamic Center of Indiana (AICI)",
             }),
             h.jsxs("div", {
@@ -26276,7 +26276,7 @@ function f4() {
                 ],
               }),
               h.jsx("a", {
-                href: "https://www.google.com/maps/dir/?api=1&destination=Olas+Villa,+6450+W+10th+St+STE+5,+Indianapolis,+IN+46214",
+                href: "https://www.google.com/maps/search/?api=1&query=Olas+Villa,+6450+W+10th+St+STE+5,+Indianapolis,+IN+46214",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className:
