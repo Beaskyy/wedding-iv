@@ -36732,6 +36732,15 @@ const C3 = "/assets/intro-video-new-XmwQeafK.mp4",
           className: "absolute inset-0 w-full h-full object-cover",
           draggable: !1,
         }),
+        h.jsx("div", {
+          className:
+            "absolute inset-x-0 bottom-10 md:bottom-14 flex justify-center pointer-events-none",
+          children: h.jsx("p", {
+            className:
+              "font-body text-[10px] md:text-xs tracking-[0.35em] uppercase text-[#8a6d42] bg-white/55 px-3 py-1 rounded-full shadow-sm",
+            children: "Tap To Open",
+          }),
+        }),
       ],
     });
   },
