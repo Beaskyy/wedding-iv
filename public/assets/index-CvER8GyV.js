@@ -25637,8 +25637,7 @@ function t4() {
           viewport: { once: !0 },
           transition: { duration: 0.8, delay: 0.15 },
           children: h.jsx("div", {
-            className:
-              "text-sage-dark/90 font-body text-lg leading-relaxed",
+            className: "text-sage-dark/90 font-body text-lg leading-relaxed",
             children: h.jsx("p", { children: e("welcome.text") }),
           }),
         }),
@@ -36021,8 +36020,13 @@ const v3 = "https://etxixznvxwjjkivempzk.supabase.co",
 function x3() {
   return iE({
     mutationFn: async (e) => {
-      const r_res = await fetch("/api/rsvp", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(e) });
-      const t = await r_res.json(); const n = r_res.ok ? null : { message: t.error || "Error" };
+      const r_res = await fetch("/api/rsvp", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(e),
+      });
+      const t = await r_res.json();
+      const n = r_res.ok ? null : { message: t.error || "Error" };
       if (n) throw n;
       if (t != null && t.error) throw new Error(t.error);
       return { isUpdate: !1 };
@@ -36732,12 +36736,18 @@ const C3 = "/assets/intro-video-new-XmwQeafK.mp4",
           className: "absolute inset-0 w-full h-full object-cover",
           draggable: !1,
         }),
+        h.jsx("style", {
+          children:
+            "@keyframes tapBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}",
+        }),
         h.jsx("div", {
           className:
-            "absolute inset-x-0 bottom-10 md:bottom-14 flex justify-center pointer-events-none",
+            "absolute inset-x-0 flex justify-center pointer-events-none",
+          style: { bottom: "80px" },
           children: h.jsx("p", {
+            style: { animation: "tapBounce 2.5s ease-in-out infinite" },
             className:
-              "font-body text-[10px] md:text-xs tracking-[0.35em] uppercase text-[#8a6d42] bg-white/55 px-3 py-1 rounded-full shadow-sm",
+              "font-body text-md md:text-xs tracking-[0.35em] uppercase text-[#8a6d42] md:bg-white bg-white/55 px-3 py-1 rounded-full shadow-sm",
             children: "Tap To Open",
           }),
         }),

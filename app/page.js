@@ -4,7 +4,10 @@ export default function Page() {
   return (
     <>
       <div id="root" />
-      <Script src="/assets/index-CvER8GyV.js" strategy="afterInteractive" />
+      <Script
+        src="/assets/index-CvER8GyV.js?v=20260510b"
+        strategy="afterInteractive"
+      />
     </>
   );
 }

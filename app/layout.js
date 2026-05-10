@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="google" content="notranslate" />
         <link rel="stylesheet" href="https://use.typekit.net/xoc5iak.css" />
-        <link rel="stylesheet" href="/assets/index-swSRspiq.css" />
+        <link rel="stylesheet" href="/assets/index-swSRspiq.css?v=20260510b" />
       </head>
       <body>{children}</body>
     </html>
