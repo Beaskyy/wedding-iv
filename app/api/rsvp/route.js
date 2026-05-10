@@ -15,6 +15,11 @@ function validate(payload) {
     return 'Attendance selection is required.'
   }
 
+  const phone = payload.phone || payload.phone_number
+  if (!phone || typeof phone !== 'string' || !phone.trim()) {
+    return 'Phone number is required.'
+  }
+
   return null
 }
 
@@ -56,9 +61,11 @@ export async function POST(request) {
     const normalized = {
       attending: (payload.attending || payload.attendance || 'yes').toLowerCase(),
       fullName: (payload.fullName || payload.full_name || '').trim(),
+      phone: (payload.phone || payload.phone_number || '').trim(),
       email: (payload.email || '').trim(),
       guests: String(payload.guests || payload.guest_count || ''),
       children: String(payload.children || payload.children_count || 'no'),
+      dietary: (payload.dietary || payload.dietary_requirements || '').trim(),
       message: (payload.message || '').trim(),
     }
 

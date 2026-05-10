@@ -18834,7 +18834,9 @@ From Ronda station, taxi is required (~10 minutes).`,
       "rsvp.person1": "Person 1 (Main contact)",
       "rsvp.personN": "Person",
       "rsvp.name": "Full name",
-      "rsvp.email": "Email address",
+      "rsvp.phone": "Phone number *",
+      "rsvp.phonePlaceholder": "Enter your phone number",
+      "rsvp.email": "Email address (optional)",
       "rsvp.dietary": "Dietary requirements",
       "rsvp.dietaryPlaceholder": "e.g. vegetarian, allergies, etc.",
       "rsvp.childrenQuestion": "Will any children be attending?",
@@ -18946,7 +18948,9 @@ BIC/SWIFT: XXXXXXXXXX`,
       "rsvp.person1": "Persona 1 (Contacto principal)",
       "rsvp.personN": "Persona",
       "rsvp.name": "Nombre completo",
-      "rsvp.email": "Correo electrónico",
+      "rsvp.phone": "Número de teléfono *",
+      "rsvp.phonePlaceholder": "Escribe tu número de teléfono",
+      "rsvp.email": "Correo electrónico (opcional)",
       "rsvp.dietary": "Restricciones alimentarias",
       "rsvp.dietaryPlaceholder": "p.ej. vegetariano, alergias, etc.",
       "rsvp.childrenQuestion": "¿Asistirán niños?",
@@ -25729,7 +25733,7 @@ function r4() {
               }),
             }),
             h.jsxs("a", {
-              href: "https://www.google.com/maps/search/?api=1&query=Alhuda+Islamic+Center+of+Indiana+%28AICI%29+12213+Lantern+Rd+Fishers+IN+46038",
+              href: "https://www.google.com/maps?q=Alhuda%20Islamic%20Center%20of%20Indiana%20(AICI)%2C%2012213%20Lantern%20Rd%2C%20Fishers%2C%20IN%2046038",
               target: "_blank",
               rel: "noopener noreferrer",
               className:
@@ -26259,43 +26263,71 @@ function f4() {
           whileInView: { opacity: 1, y: 0 },
           viewport: { once: !0 },
           transition: { duration: 0.6, delay: 0.1 },
-          children: h.jsxs("div", {
-            className:
-              "bg-white/80 backdrop-blur-sm border border-gold/20 rounded-2xl p-8 md:p-10 shadow-lg text-center space-y-6",
-            children: [
-              h.jsxs("div", {
-                className: "flex flex-col items-center gap-2",
-                children: [
-                  h.jsx(eS, { className: "w-6 h-6 text-gold" }),
-                  h.jsx("p", {
-                    className:
-                      "text-sage-dark font-body text-base leading-relaxed font-medium",
-                    children: e("transport.fullAddress"),
-                  }),
-                ],
+          className:
+            "bg-white rounded-2xl border border-gold/20 p-8 shadow-lg text-center",
+          children: [
+            h.jsx("h3", {
+              className:
+                "font-body text-2xl md:text-3xl font-semibold text-sage-dark mb-6 border-b border-gold/20 pb-4",
+              children: "Olas Villa",
+            }),
+            h.jsxs("div", {
+              className: "space-y-5 mb-8",
+              children: [
+                h.jsxs("div", {
+                  className: "flex flex-col items-center gap-1 text-sage-dark",
+                  children: [
+                    h.jsx("span", {
+                      className: "font-body text-base tracking-wide",
+                      children: "6450 W 10th St STE 5, Indianapolis",
+                    }),
+                    h.jsx("span", {
+                      className: "font-body text-sm tracking-wide opacity-70",
+                      children: "IN 46214, United States",
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            h.jsx("div", {
+              className: "w-full rounded-xl overflow-hidden mb-6",
+              style: { height: "240px" },
+              children: h.jsx("iframe", {
+                src: "https://www.google.com/maps?q=Olas%20Villa%2C%206450%20W%2010th%20St%20STE%205%2C%20Indianapolis%2C%20IN%2046214&z=15&output=embed",
+                width: "100%",
+                height: "240",
+                style: {
+                  border: 0,
+                  filter:
+                    "sepia(0.25) saturate(0.6) hue-rotate(5deg) brightness(1.05)",
+                },
+                allowFullScreen: !0,
+                loading: "lazy",
+                referrerPolicy: "no-referrer-when-downgrade",
+                title: "Olas Villa, Indianapolis",
               }),
-              h.jsx("a", {
-                href: "https://www.google.com/maps/search/?api=1&query=Olas+Villa,+6450+W+10th+St+STE+5,+Indianapolis,+IN+46214",
-                target: "_blank",
-                rel: "noopener noreferrer",
-                className:
-                  "inline-flex items-center gap-2 font-body text-xs tracking-[0.15em] uppercase text-gold hover:text-sage-dark transition-colors border-b border-gold/40 hover:border-sage-dark pb-0.5",
-                children: "Google Maps",
-              }),
-              h.jsx("div", { className: "w-12 h-px bg-gold/20 mx-auto" }),
-              h.jsxs("div", {
-                className: "flex flex-col items-center gap-2",
-                children: [
-                  h.jsx(hN, { className: "w-5 h-5 text-gold" }),
-                  h.jsx("p", {
-                    className:
-                      "text-sage-dark/70 font-body text-sm leading-relaxed whitespace-pre-line",
-                    children: e("transport.byCarDetails"),
-                  }),
-                ],
-              }),
-            ],
-          }),
+            }),
+            h.jsxs("a", {
+              href: "https://www.google.com/maps?q=Olas%20Villa%2C%206450%20W%2010th%20St%20STE%205%2C%20Indianapolis%2C%20IN%2046214",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className:
+                "inline-flex items-center gap-2 font-body text-sm tracking-[0.15em] uppercase text-sage-dark/70 hover:text-gold transition-colors border-b border-gold/30 hover:border-gold pb-1 mb-6",
+              children: [h.jsx(eS, { className: "w-3.5 h-3.5" }), e("events.openMaps")],
+            }),
+            h.jsx("div", { className: "w-12 h-px bg-gold/20 mx-auto mb-6" }),
+            h.jsxs("div", {
+              className: "flex flex-col items-center gap-2",
+              children: [
+                h.jsx(hN, { className: "w-5 h-5 text-gold" }),
+                h.jsx("p", {
+                  className:
+                    "text-sage-dark/70 font-body text-sm leading-relaxed whitespace-pre-line",
+                  children: e("transport.byCarDetails"),
+                }),
+              ],
+            }),
+          ],
         }),
       ],
     }),
@@ -36251,7 +36283,7 @@ function E3() {
     [r, s] = g.useState(1),
     [i, o] = g.useState("no"),
     [a, l] = g.useState(0),
-    [c, u] = g.useState([{ name: "", email: "", dietaryRequirements: "" }]),
+    [c, u] = g.useState([{ name: "", phone: "", email: "", dietaryRequirements: "" }]),
     [d, f] = g.useState({ attendance: "yes", message: "", website: "" }),
     p = x3(),
     { toast: b } = Lu(),
@@ -36260,7 +36292,7 @@ function E3() {
         u((_) => {
           const C = [..._];
           for (; C.length < E; )
-            C.push({ name: "", email: "", dietaryRequirements: "" });
+            C.push({ name: "", phone: "", email: "", dietaryRequirements: "" });
           return C.slice(0, E);
         }));
     },
@@ -36268,6 +36300,12 @@ function E3() {
       u((C) => {
         const T = [...C];
         return ((T[E] = { ...T[E], name: _ }), T);
+      });
+    },
+    k = (E, _) => {
+      u((C) => {
+        const T = [...C];
+        return ((T[E] = { ...T[E], phone: _ }), T);
       });
     },
     v = (E, _) => {
@@ -36292,6 +36330,7 @@ function E3() {
         (await p.mutateAsync({
           full_name:
             _.join(", ") || ((A = c[0]) == null ? void 0 : A.name) || "Guest",
+          phone: ((N = c[0]) == null ? void 0 : N.phone) || void 0,
           email: ((N = c[0]) == null ? void 0 : N.email) || void 0,
           attendance: d.attendance,
           guest_count: r,
@@ -36424,6 +36463,7 @@ function E3() {
                   }),
                   d.attendance === "no"
                     ? h.jsxs("div", {
+                        className: "space-y-4",
                         children: [
                           h.jsx(ht, {
                             htmlFor: "name-decline",
@@ -36438,6 +36478,23 @@ function E3() {
                             className:
                               "mt-2 bg-ivory border-[#c5a46d]/30 text-sage-dark placeholder:text-sage-dark/50 focus:border-[#c5a46d]",
                             placeholder: e("rsvp.enterName"),
+                          }),
+                          h.jsx(Fr, {
+                            type: "tel",
+                            required: !0,
+                            value: (((S = c[0]) == null ? void 0 : S.phone) || ""),
+                            onChange: (E) => k(0, E.target.value),
+                            className:
+                              "bg-ivory border-[#c5a46d]/30 text-sage-dark placeholder:text-sage-dark/50 focus:border-[#c5a46d]",
+                            placeholder: e("rsvp.phonePlaceholder"),
+                          }),
+                          h.jsx(Fr, {
+                            type: "email",
+                            value: (((S = c[0]) == null ? void 0 : S.email) || ""),
+                            onChange: (E) => v(0, E.target.value),
+                            className:
+                              "bg-ivory border-[#c5a46d]/30 text-sage-dark placeholder:text-sage-dark/50 focus:border-[#c5a46d]",
+                            placeholder: e("rsvp.email"),
                           }),
                         ],
                       })
@@ -36517,14 +36574,26 @@ function E3() {
                                       placeholder: e("rsvp.name"),
                                     }),
                                     _ === 0 &&
-                                      h.jsx(Fr, {
-                                        type: "email",
-                                        required: !0,
-                                        value: E.email,
-                                        onChange: (C) => v(_, C.target.value),
-                                        className:
-                                          "bg-ivory border-[#c5a46d]/30 text-sage-dark placeholder:text-sage-dark/50 focus:border-[#c5a46d]",
-                                        placeholder: e("rsvp.email"),
+                                      h.jsxs(h.Fragment, {
+                                        children: [
+                                          h.jsx(Fr, {
+                                            type: "tel",
+                                            required: !0,
+                                            value: E.phone || "",
+                                            onChange: (C) => k(_, C.target.value),
+                                            className:
+                                              "bg-ivory border-[#c5a46d]/30 text-sage-dark placeholder:text-sage-dark/50 focus:border-[#c5a46d]",
+                                            placeholder: e("rsvp.phonePlaceholder"),
+                                          }),
+                                          h.jsx(Fr, {
+                                            type: "email",
+                                            value: E.email,
+                                            onChange: (C) => v(_, C.target.value),
+                                            className:
+                                              "bg-ivory border-[#c5a46d]/30 text-sage-dark placeholder:text-sage-dark/50 focus:border-[#c5a46d]",
+                                            placeholder: e("rsvp.email"),
+                                          }),
+                                        ],
                                       }),
                                   ],
                                 },
