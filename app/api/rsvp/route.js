@@ -65,7 +65,6 @@ export async function POST(request) {
       email: (payload.email || '').trim(),
       guests: String(payload.guests || payload.guest_count || ''),
       children: String(payload.children || payload.children_count || 'no'),
-      dietary: (payload.dietary || payload.dietary_requirements || '').trim(),
       message: (payload.message || '').trim(),
     }
 

@@ -6,10 +6,10 @@ import SectionHeading from '../ui/SectionHeading'
 const initialForm = {
   attending: 'yes',
   fullName: '',
+  phone: '',
   email: '',
   guests: '1',
   children: 'no',
-  dietary: '',
   message: '',
 }
 
@@ -91,11 +91,15 @@ export default function RSVPSection({ couple }) {
                 <input name="fullName" value={form.fullName} onChange={update} placeholder="Enter your name" required />
               </label>
               <label>
-                <span>Email address</span>
-                <input name="email" type="email" value={form.email} onChange={update} placeholder="name@example.com" />
+                <span>Phone number</span>
+                <input name="phone" type="tel" value={form.phone} onChange={update} placeholder="Enter your phone number" required />
               </label>
             </div>
             <div className="form-grid two-up">
+              <label>
+                <span>Email address (Optional)</span>
+                <input name="email" type="email" value={form.email} onChange={update} placeholder="name@example.com" />
+              </label>
               <label>
                 <span>Will any children be attending?</span>
                 <select name="children" value={form.children} onChange={update}>
