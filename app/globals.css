@@ -1106,3 +1106,15 @@ h6 {
     opacity: 1;
   }
 }
+
+/* Remove maps preview specifically for Olas Villa */
+iframe[title*="Olas Villa"] {
+  display: none !important;
+}
+
+/* Hide the container of the Olas Villa map */
+div:has(> iframe[title*="Olas Villa"]) {
+  display: none !important;
+}
+
+

@@ -22,8 +22,7 @@ export default function VenueSection({ couple, programme, venue }) {
           </div>
           <a className="text-link" href={venue.mapHref} target="_blank" rel="noreferrer">
             Open in Maps
-          </a>
-        </div>
+          </a>        </div>
         <div className="programme-panel fade-up delay-1">
           <SectionHeading eyebrow="Programme" title="Day Programme" light text={couple.dateLabel} />
           <div className="timeline">
