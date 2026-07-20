@@ -18766,9 +18766,9 @@ const lD = {
       "program.date": "15 August 2026 | 10:00 AM",
       "program.arrival": "Arrival",
       "program.ceremony": "Nikkah Ceremony",
-      "program.cocktails": "Refreshment",
+      "program.cocktails": "Brunch",
       "program.dinner": "Reception Begins",
-      "program.cake": "Lunch",
+      "program.cake": "Dinner",
       "program.finish": "Finish",
       "dress.title": "Dress Code",
       "dress.men": "Men",
@@ -25754,9 +25754,9 @@ function s4() {
     t = [
       { time: "10:00", labelKey: "program.arrival", side: "right" },
       { time: "10:30", labelKey: "program.ceremony", side: "left" },
-      { time: "11:00", labelKey: "program.cocktails", side: "right" },
-      { time: "13:00", labelKey: "program.dinner", side: "left" },
-      { time: "14:00", labelKey: "program.cake", side: "right" },
+      { time: "12:00", labelKey: "program.cocktails", side: "right" },
+      { time: "16:00", labelKey: "program.dinner", side: "left" },
+      { time: "17:00", labelKey: "program.cake", side: "right" },
       { time: "21:00", labelKey: "program.finish", side: "left" },
     ];
   return h.jsx("section", {
