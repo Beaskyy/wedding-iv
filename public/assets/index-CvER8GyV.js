@@ -18766,7 +18766,7 @@ const lD = {
       "program.date": "15 August 2026 | 10:00 AM",
       "program.arrival": "Arrival",
       "program.ceremony": "Nikkah Ceremony",
-      "program.cocktails": "Brunch",
+      "program.cocktails": "Brunch/Photo Session",
       "program.dinner": "Reception Begins",
       "program.cake": "Dinner",
       "program.finish": "Finish",
