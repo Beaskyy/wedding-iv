@@ -88,7 +88,6 @@ export const gallery = [
   "/assets/images/228A1277.jpg",
   "/assets/images/228A1282.jpg",
   "/assets/images/228A1349.jpg",
-  "/assets/images/228A1366.jpg",
   "/assets/images/228A1367.jpg",
   "/assets/images/228A1372.jpg",
   "/assets/images/228A1386.jpg",
