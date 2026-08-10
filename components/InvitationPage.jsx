@@ -11,12 +11,14 @@ import {
   venue,
   weddingDate,
   welcome,
+  gallery,
 } from "../data/invitation";
 import CountdownSection from "./sections/CountdownSection";
 import DecorativeBreak from "./ui/DecorativeBreak";
 import DressSection from "./sections/DressSection";
 import FooterSection from "./sections/FooterSection";
 import HeroSection from "./sections/HeroSection";
+import GallerySection from "./sections/GallerySection";
 import RSVPSection from "./sections/RSVPSection";
 import StaySection from "./sections/StaySection";
 import TravelSection from "./sections/TravelSection";
@@ -58,6 +60,7 @@ export default function InvitationPage() {
           image="/assets/cupid-illustration-BO3_EWaD.png"
           size="medium"
         />
+        {gallery && <GallerySection gallery={gallery} />}
         <TravelSection gifts={gifts} travel={travel} />
         <RSVPSection couple={couple} />
         <FooterSection couple={couple} />
